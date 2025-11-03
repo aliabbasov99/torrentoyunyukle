@@ -27,4 +27,4 @@ now you can run the app.
 `node index.js`
 
 # Demo
-demo: https://www.torrentoyunyukle.xyz/
+demo: https://torrentoyunyukle.vercel.app/
