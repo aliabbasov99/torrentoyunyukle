@@ -4,13 +4,14 @@
 
   <div class="col-12 col-lg-9">
       <div class="card text-white bg-dark mb-3 border-primary">
-      <div style="height: 50px" class="card-header border-primary lexend-deca-title fw-bold">
+      <div class="card-header border-primary lexend-deca-title fw-bold">
         
 
 
-        <div class="position-relative">
-  <div class="position-absolute top-0 start-0">
-    <h1 style="font-size:18px" class="lexend-deca-title fw-bold">
+  <div >
+    <div class="d-flex justify-content-between">
+
+<h1 style="font-size:18px" class="lexend-deca-title fw-bold">
 
 
         {{#unless user}}
@@ -87,10 +88,13 @@ bookmarkBtn.addEventListener('click', e => {
           outline: none !important;
         }
       </style>
-    {{game.name}} Yüklə</h1></div>
-  <div class="position-absolute top-0 end-0"><a class="no-underline text-white go-red" href="/">Əsas</a> <span aria-hidden="true">&raquo;</span><span class="no-underline text-white" href="/{{game._id}}"> Oyun</span></div>
+    {{game.name}} Yüklə</h1>
+<div><a class="no-underline text-white go-red" href="/">Əsas</a> <span aria-hidden="true">&raquo;</span><span class="no-underline text-white" href="/{{game._id}}"> Oyun</span></div>
 
-</div>
+    </div>
+    </div>
+  
+
         
         </div>
       <div class="card-body">
