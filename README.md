@@ -25,6 +25,3 @@ youtubeApiKey=
 
 now you can run the app.
 `node index.js`
-
-# Demo
-demo: https://torrentoyunyukle.vercel.app/
